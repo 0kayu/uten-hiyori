@@ -1,5 +1,5 @@
 // Rellax
-var rellax = new Rellax('.rellax');
+// var rellax = new Rellax('.rellax');
 
 // particlesJS
 particlesJS("particle-1", {
