@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'KillGothic-U-KanaO';
+  src: url('../fonts/GN-KillGothic-U-KanaO.ttf');
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 768px;
+  color: #3a3c43;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+}
+
+.fadein {
+  opacity: 0.1;
+  transform: translate(0, 50px);
+  transition: all 500ms;
+}
+
+.fadein.scrollin {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#particle-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7fb;
+}
+
+.contents {
+  text-align: left;
+  color: #3a3c43;
+  font-family: 'KillGothic-U-KanaO','Noto Sans JP',sans-serif;
+  font-size: 15px;
+}
+
+.contents img {
+  border: 0;
+  vertical-align: top;
+}
+
+.contents .centerview {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 100px;
+  max-width: 1162px;
+}
+
+.contents .common-shadow {
+  box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.2);
+}
+
+/* header */
+.contents .contents-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 88px;
+  background-color: #fff;
+  z-index: 40;
+  border-top: solid 3px #3e3dc9;
+}
+
+.contents .contents-header .logo {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.contents .contents-header .logo a {
+  text-decoration: none;
+}
+
+.contents .contents-header .logo .name {
+  color: #fff;
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 246px;
+  height: 88px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.contents .contents-header .menu-list {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.contents .contents-header .menu-list .item {
+  display: inline-block;
+}
+
+.contents .contents-header .menu-list .item a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.contents .contents-header .menu-list .item img {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  width: 64px;
+}
+
+/* character */
+.contents .contents-character {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 5;
+}
+
+.contents .contents-character .chara {
+  margin-top: 90px;
+  position: absolute;
+  width: 100%;
+}
+
+/* main */
+.contents .contents-main {
+  padding-top: 40px;
+}
+
+/* contents */
+.contents .contents-contents {
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 644px;
+  min-height: 100vh;
+  z-index: 10;
+}
+
+.contents .contents-contents .inner {
+  min-height: 100vh;
+  color: #f3e927;
+  background-color: #3e3dc9;
+}
+
+.contents .contents-contents .page-title {
+  line-height: 100%;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.contents .contents-contents .page-title-bar {
+  position: relative;
+  overflow: hidden;
+}
+
+.contents .contents-contents .page-title-bar .page-title {
+  float: left;
+}
+
+.contents .contents-contents .news-list {
+  font-family: 'Noto Sans JP',sans-serif;
+}
+
+.contents .contents-contents .news-list .list .item {
+  position: relative;
+  margin-left: 3%;
+  width: 31%;
+  color: #3a3c43;
+  word-break: break-all;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.contents .contents-contents .news-list.detail .list .item {
+  box-sizing: border-box;
+  margin-left: inherit;
+  padding: 48px;
+  width: 100%;
+}
+
+.contents .contents-contents .news-list.detail .list .item:nth-child(3n-2) {
+  margin-left: inherit;
+}
+
+.contents .contents-contents .news-list.detail .list .item+.item, .contents .contents-contents .news-list.detail .list .item:nth-child(n+4) {
+  margin-top: 64px;
+}
+
+.contents .contents-contents .news-list.detail .list .item .image-partition {
+  width: 50%;
+}
+
+.contents .contents-contents .news-list.detail .list .item .date-label {
+  margin-left: 0;
+}
+
+.contents .contents-contents .news-list.detail .list .item .title {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.contents .contents-contents .news-list.detail .list .item .data .image {
+  position: absolute;
+  right: -10%;
+  top: 0;
+  margin-top: inherit;
+  width: 60%;
+}
+
+.contents .contents-contents .news-list .list .item .image img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer */
+.contents .contents-footer {
+  padding: 60px 0;
+}
+
+.contents .contents-footer .copyright {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.contents .contents-contents a {
+  color: #3a3c43;
+}
+
+@media screen and (max-width:640px)
+{
+  body {
+    min-width: inherit;
+  }
+
+  .contents {
+    font-size: 13px;
+  }
+
+  .contents img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contents .centerview {
+    padding: 0 5vw;
+    width: inherit;
+  }
+
+  .contents .wideview {
+    min-width: inherit;
+  }
+
+  /* header */
+  .contents .contents-header {
+    box-sizing: border-box;
+    height: 64px;
+  }
+
+  .contents .contents-header .logo .name {
+    width: 179px;
+    height: 64px;
+  }
+
+  .contents .contents-header .menu-list .item a {
+    padding: 12px 6px;
+}
+
+  .contents .contents-header .menu-list .item img {
+    width: 40px;
+  }
+
+  /* character */
+  .contents .contents-character {
+  }
+
+  .contents .contents-character .chara {
+  }
+
+  /* main */
+  .contents .contents-main {
+    padding-top: 6.4vw;
+  }
+
+  /* contents */
+  .contents .contents-contents .inner {
+    padding-top: 0;
+  }
+
+  .contents .contents-contents .page-title {
+    font-size: 28px;
+  }
+
+  .contents .contents-contents .page-title-bar {
+  }
+
+  .contents .contents-contents .page-title-bar .page-title {
+    text-align: center;
+    float: inherit;
+  }
+
+  .contents .contents-contents .news-list {
+    margin-top: 12px;
+  }
+
+  .contents .contents-contents .news-list .list {
+    margin-top: 8px;
+  }
+
+  .contents .contents-contents .news-list.detail .list .item {
+    padding: 6px;
+  }
+
+  .contents .contents-contents .news-list.detail .list .item .data {
+    padding: 12px 8px 32px;
+  }
+
+  .contents .contents-contents .news-list.detail .list .item .data .image {
+    position: inherit;
+    left: inherit;
+    top: inherit;
+    margin-top: 16px;
+    width: inherit;
+  }
+
+  .contents .contents-contents .news-list.detail .list .item .image-partition {
+    width: 100%;
+  }
+
+  .contents .contents-contents .news-list.detail .list .item:nth-child(3n-2) {
+  }
+}
