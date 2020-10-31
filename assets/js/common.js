@@ -59,6 +59,9 @@ particlesJS("particle-1", {
 
 // function
 $(function(){
+  $(window).load(function () {
+    $('.contents-loading').fadeOut();
+  });
   $(window).scroll(function () {
     $('.fadein').each(function() {
       var elemPos = $(this).offset().top;
