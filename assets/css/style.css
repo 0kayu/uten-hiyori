@@ -304,6 +304,10 @@ body {
     padding-top: 6.4vw;
   }
 
+  .contents .contents-contents {
+    width: fit-content;
+  }
+
   /* contents */
   .contents .contents-contents .inner {
     padding-top: 0;
