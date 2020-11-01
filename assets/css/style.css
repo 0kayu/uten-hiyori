@@ -96,11 +96,7 @@ body {
   text-decoration: none;
 }
 
-.contents .contents-header .logo .name {
-  color: #fff;
-  background-image: url("../img/logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+.contents .contents-header .logo img {
   width: 246px;
   height: 88px;
   text-indent: 100%;
@@ -287,7 +283,7 @@ body {
     height: 64px;
   }
 
-  .contents .contents-header .logo .name {
+  .contents .contents-header .logo img {
     width: 179px;
     height: 64px;
   }
