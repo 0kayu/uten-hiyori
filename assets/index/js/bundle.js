@@ -1,8 +1,4 @@
-// Rellax
-// var rellax = new Rellax('.rellax');
-
-// particlesJS
-particlesJS("particle-1", {
+particlesJS('particle-js', {
   particles: {
     number: {
       value: 200,
@@ -11,10 +7,10 @@ particlesJS("particle-1", {
       }
     },
     color: {
-      value: "#d9e6f4"
+      value: '#d9e6f4'
     },
     shape: {
-      type: "star",
+      type: 'star',
     },
     opacity: {
       value: 0.5,
@@ -36,10 +32,10 @@ particlesJS("particle-1", {
     move: {
       enable: true,
       speed: 1,
-      direction: "top-right",
+      direction: 'top-right',
       random: true,
       straight: false,
-      out_mode: "out",
+      out_mode: 'out',
       bounce: false,
       attract: {
         enable: true,
@@ -49,27 +45,16 @@ particlesJS("particle-1", {
     }
   },
   interactivity: {
-    detect_on: "canvas",
+    detect_on: 'canvas',
     events: {
+      onhover: {
+        enable: false
+      },
+      onclick: {
+        enable: false
+      },
       resize: true
     },
   },
   retina_detect: true,
-});
-
-// function
-$(function(){
-  $(window).load(function () {
-    $('.contents-loading').fadeOut();
-  });
-  $(window).scroll(function () {
-    $('.fadein').each(function() {
-      var elemPos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll > elemPos - windowHeight + 200) {
-        $(this).addClass('scrollin');
-      }
-    });
-  });
 });
