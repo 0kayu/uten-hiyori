@@ -4,7 +4,7 @@ $(function() {
       var scroll = $(window).scrollTop();
       var position = $(this).offset().top;
       var wh = $(window).height();
-      if (scroll > position - wh + 200) {
+      if (scroll > position - wh + 100) {
         $(this).addClass('parallax');
       }
     });
