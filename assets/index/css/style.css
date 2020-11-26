@@ -21,6 +21,18 @@
   }
 }
 
+.top-kv-movie {
+  min-height: 600px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width:736px) {
+  .top-kv-movie {
+    min-height: 820px;
+  }
+}
+
 .top-kv-hiyori {
   position: absolute;
   left: 50%;

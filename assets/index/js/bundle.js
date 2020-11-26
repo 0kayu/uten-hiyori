@@ -1,3 +1,4 @@
+/*
 particlesJS('particle-js', {
   particles: {
     number: {
@@ -58,3 +59,4 @@ particlesJS('particle-js', {
   },
   retina_detect: true,
 });
+*/
