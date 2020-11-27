@@ -1,5 +1,5 @@
 .top-kv {
-  min-height: 600px;
+  min-height: 400px;
   background-color: #f7f7fb;
   position: relative;
   overflow: hidden;
@@ -11,18 +11,8 @@
   }
 }
 
-.particles-js-canvas-el {
-  min-height: 600px;;
-}
-
-@media only screen and (min-width:736px) {
-  .particles-js-canvas-el {
-    min-height: 820px;
-  }
-}
-
 .top-kv-movie {
-  min-height: 600px;
+  min-height: 400px;
   width: 100%;
   height: auto;
 }
