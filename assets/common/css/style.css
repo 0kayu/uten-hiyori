@@ -1625,8 +1625,8 @@ body {
 
 .page-head-bg-item:first-child {
   background-color: #fef14e;
-  -webkit-transform: matrix(1, -.1, 0, 1, 0, 0);
-  transform: matrix(1, -.1, 0, 1, 0, 0);
+  /* -webkit-transform: matrix(1, -.1, 0, 1, 0, 0); */
+  /* transform: matrix(1, -.1, 0, 1, 0, 0); */
   -webkit-transition-delay: .1s;
   transition-delay: .1s;
   left: auto;
@@ -1642,8 +1642,8 @@ body {
 
 .page-head-bg-item:nth-child(2) {
   background-color: #61c3d8;
-  -webkit-transform: matrix(1, .15, 0, 1, 0, 0);
-  transform: matrix(1, .15, 0, 1, 0, 0);
+  /* -webkit-transform: matrix(1, .15, 0, 1, 0, 0); */
+  /* transform: matrix(1, .15, 0, 1, 0, 0); */
   -webkit-transition-delay: .3s;
   transition-delay: .3s;
   top: -40px;
@@ -1657,8 +1657,8 @@ body {
 
 .page-head-bg-item:nth-child(3) {
   background-color: #3e3dc9;
-  -webkit-transform: matrix(1, -.06, 0, 1, 0, 0);
-  transform: matrix(1, -.06, 0, 1, 0, 0);
+  /* -webkit-transform: matrix(1, -.06, 0, 1, 0, 0); */
+  /* transform: matrix(1, -.06, 0, 1, 0, 0); */
   -webkit-transition-delay: .5s;
   transition-delay: .5s;
   left: auto;
@@ -1668,8 +1668,8 @@ body {
 
 @media only screen and (min-width:736px) {
   .page-head-bg-item:nth-child(3) {
-    -webkit-transform: matrix(1, -.04, 0, 1, 0, 0);
-    transform: matrix(1, -.04, 0, 1, 0, 0);
+    /* -webkit-transform: matrix(1, -.04, 0, 1, 0, 0); */
+    /* transform: matrix(1, -.04, 0, 1, 0, 0); */
     top: -39px;
   }
 }
