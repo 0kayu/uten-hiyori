@@ -898,14 +898,14 @@ body {
   .official-btn {
     display: block;
     position: fixed;
-    right: 0;
+    right: 16px;
     top: 98px;
     margin: auto;
   }
 }
 
 .official-btn-item {
-  margin: 0 3px;
+  margin: 0 8px;
 }
 
 @media only screen and (min-width:1200px) {
@@ -913,7 +913,7 @@ body {
     -webkit-transition: opacity .4s cubic-bezier(.165, .84, .44, 1);
     transition: opacity .4s cubic-bezier(.165, .84, .44, 1);
     display: block;
-    margin: 0 0 10px;
+    margin: 0 0 16px;
   }
   .official-btn-item:hover {
     opacity: .7;
@@ -921,35 +921,15 @@ body {
 }
 
 .official-btn-img {
-  height: 22px;
+  height: 48px;
   width: auto;
 }
 
 @media only screen and (min-width:1200px) {
   .official-btn-img {
     height: auto;
-    width: 32px;
+    width: 48px;
     vertical-align: bottom;
-  }
-}
-
-.official-btn-img.sp {
-  display: block;
-}
-
-@media only screen and (min-width:1200px) {
-  .official-btn-img.sp {
-    display: none;
-  }
-}
-
-.official-btn-img.pc {
-  display: none;
-}
-
-@media only screen and (min-width:1200px) {
-  .official-btn-img.pc {
-    display: block;
   }
 }
 
